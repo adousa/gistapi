@@ -13,7 +13,7 @@ const Gist = ({
   forks_url,
   owner,
   updated_at,
-  url,
+  html_url,
 }) => {
   const { avatar_url, login } = owner;
   return (
@@ -21,7 +21,7 @@ const Gist = ({
       <GistHeader>
         <Avatar>
           <img alt={`${login} Avatar`} src={avatar_url} />
-          <UserNameLabel href={url} target="_blank">
+          <UserNameLabel href={html_url} target="_blank">
             {login}
           </UserNameLabel>
         </Avatar>
@@ -110,6 +110,7 @@ const FilesList = styled.div`
   display: flex;
   flex-direction: row;
   margin-top: 10px;
+  flex-wrap: wrap;
 `;
 
 const FileItem = styled.a`
