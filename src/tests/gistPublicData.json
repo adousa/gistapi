@@ -1,0 +1,143 @@
+[
+  {
+    "url": "https://api.github.com/gists/060d3a2cc98488af9ad1fa760fecfc71",
+    "forks_url": "https://api.github.com/gists/060d3a2cc98488af9ad1fa760fecfc71/forks",
+    "commits_url": "https://api.github.com/gists/060d3a2cc98488af9ad1fa760fecfc71/commits",
+    "id": "060d3a2cc98488af9ad1fa760fecfc71",
+    "node_id": "MDQ6R2lzdDA2MGQzYTJjYzk4NDg4YWY5YWQxZmE3NjBmZWNmYzcx",
+    "git_pull_url": "https://gist.github.com/060d3a2cc98488af9ad1fa760fecfc71.git",
+    "git_push_url": "https://gist.github.com/060d3a2cc98488af9ad1fa760fecfc71.git",
+    "html_url": "https://gist.github.com/060d3a2cc98488af9ad1fa760fecfc71",
+    "files": {
+      "PY0101EN-1-2-Strings.ipynb": {
+        "filename": "PY0101EN-1-2-Strings.ipynb",
+        "type": "text/plain",
+        "language": "Jupyter Notebook",
+        "raw_url": "https://gist.githubusercontent.com/lisardobaena/060d3a2cc98488af9ad1fa760fecfc71/raw/63f58f3d5dd6b417ce407d3bbe35ad3198a8daa2/PY0101EN-1-2-Strings.ipynb",
+        "size": 31874
+      }
+    },
+    "public": true,
+    "created_at": "2021-02-21T21:12:49Z",
+    "updated_at": "2021-02-21T21:12:50Z",
+    "description": "Created on Skills Network Labs",
+    "comments": 0,
+    "user": null,
+    "comments_url": "https://api.github.com/gists/060d3a2cc98488af9ad1fa760fecfc71/comments",
+    "owner": {
+      "login": "lisardobaena",
+      "id": 79422425,
+      "node_id": "MDQ6VXNlcjc5NDIyNDI1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/79422425?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lisardobaena",
+      "html_url": "https://github.com/lisardobaena",
+      "followers_url": "https://api.github.com/users/lisardobaena/followers",
+      "following_url": "https://api.github.com/users/lisardobaena/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lisardobaena/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lisardobaena/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lisardobaena/subscriptions",
+      "organizations_url": "https://api.github.com/users/lisardobaena/orgs",
+      "repos_url": "https://api.github.com/users/lisardobaena/repos",
+      "events_url": "https://api.github.com/users/lisardobaena/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lisardobaena/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "truncated": false
+  },
+  {
+    "url": "https://api.github.com/gists/b38643e7cfa8595c5cf0edc01970cc7c",
+    "forks_url": "https://api.github.com/gists/b38643e7cfa8595c5cf0edc01970cc7c/forks",
+    "commits_url": "https://api.github.com/gists/b38643e7cfa8595c5cf0edc01970cc7c/commits",
+    "id": "b38643e7cfa8595c5cf0edc01970cc7c",
+    "node_id": "MDQ6R2lzdGIzODY0M2U3Y2ZhODU5NWM1Y2YwZWRjMDE5NzBjYzdj",
+    "git_pull_url": "https://gist.github.com/b38643e7cfa8595c5cf0edc01970cc7c.git",
+    "git_push_url": "https://gist.github.com/b38643e7cfa8595c5cf0edc01970cc7c.git",
+    "html_url": "https://gist.github.com/b38643e7cfa8595c5cf0edc01970cc7c",
+    "files": {
+      "untrusted-lvl8-solution.js": {
+        "filename": "untrusted-lvl8-solution.js",
+        "type": "application/javascript",
+        "language": "JavaScript",
+        "raw_url": "https://gist.githubusercontent.com/Untrusted-Game/b38643e7cfa8595c5cf0edc01970cc7c/raw/02700410c20530f9ae8ab39f42a1e48cc744c248/untrusted-lvl8-solution.js",
+        "size": 3279
+      }
+    },
+    "public": true,
+    "created_at": "2021-02-21T21:12:35Z",
+    "updated_at": "2021-02-21T21:12:35Z",
+    "description": "Solution to level 8 in Untrusted: http://alex.nisnevich.com/untrusted/",
+    "comments": 0,
+    "user": null,
+    "comments_url": "https://api.github.com/gists/b38643e7cfa8595c5cf0edc01970cc7c/comments",
+    "owner": {
+      "login": "Untrusted-Game",
+      "id": 37789057,
+      "node_id": "MDQ6VXNlcjM3Nzg5MDU3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/37789057?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Untrusted-Game",
+      "html_url": "https://github.com/Untrusted-Game",
+      "followers_url": "https://api.github.com/users/Untrusted-Game/followers",
+      "following_url": "https://api.github.com/users/Untrusted-Game/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Untrusted-Game/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Untrusted-Game/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Untrusted-Game/subscriptions",
+      "organizations_url": "https://api.github.com/users/Untrusted-Game/orgs",
+      "repos_url": "https://api.github.com/users/Untrusted-Game/repos",
+      "events_url": "https://api.github.com/users/Untrusted-Game/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Untrusted-Game/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "truncated": false
+  },
+  {
+    "url": "https://api.github.com/gists/9f77cf62a26581d254399f94dfba48e4",
+    "forks_url": "https://api.github.com/gists/9f77cf62a26581d254399f94dfba48e4/forks",
+    "commits_url": "https://api.github.com/gists/9f77cf62a26581d254399f94dfba48e4/commits",
+    "id": "9f77cf62a26581d254399f94dfba48e4",
+    "node_id": "MDQ6R2lzdDlmNzdjZjYyYTI2NTgxZDI1NDM5OWY5NGRmYmE0OGU0",
+    "git_pull_url": "https://gist.github.com/9f77cf62a26581d254399f94dfba48e4.git",
+    "git_push_url": "https://gist.github.com/9f77cf62a26581d254399f94dfba48e4.git",
+    "html_url": "https://gist.github.com/9f77cf62a26581d254399f94dfba48e4",
+    "files": {
+      "Potential Maintainers": {
+        "filename": "Potential Maintainers",
+        "type": "text/plain",
+        "language": null,
+        "raw_url": "https://gist.githubusercontent.com/GrahamcOfBorg/9f77cf62a26581d254399f94dfba48e4/raw/135c8468160d575e8520bd1eb4fa1edbe64c48a3/Potential%20Maintainers",
+        "size": 204
+      }
+    },
+    "public": true,
+    "created_at": "2021-02-21T21:12:20Z",
+    "updated_at": "2021-02-21T21:12:20Z",
+    "description": "",
+    "comments": 0,
+    "user": null,
+    "comments_url": "https://api.github.com/gists/9f77cf62a26581d254399f94dfba48e4/comments",
+    "owner": {
+      "login": "GrahamcOfBorg",
+      "id": 25447658,
+      "node_id": "MDQ6VXNlcjI1NDQ3NjU4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25447658?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/GrahamcOfBorg",
+      "html_url": "https://github.com/GrahamcOfBorg",
+      "followers_url": "https://api.github.com/users/GrahamcOfBorg/followers",
+      "following_url": "https://api.github.com/users/GrahamcOfBorg/following{/other_user}",
+      "gists_url": "https://api.github.com/users/GrahamcOfBorg/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/GrahamcOfBorg/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/GrahamcOfBorg/subscriptions",
+      "organizations_url": "https://api.github.com/users/GrahamcOfBorg/orgs",
+      "repos_url": "https://api.github.com/users/GrahamcOfBorg/repos",
+      "events_url": "https://api.github.com/users/GrahamcOfBorg/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/GrahamcOfBorg/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "truncated": false
+  }
+]
