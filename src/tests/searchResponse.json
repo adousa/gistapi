@@ -1,0 +1,96 @@
+[
+  {
+    "url": "https://api.github.com/gists/060d3a2cc98488af9ad1fa760fecfc71",
+    "forks_url": "https://api.github.com/gists/060d3a2cc98488af9ad1fa760fecfc71/forks",
+    "commits_url": "https://api.github.com/gists/060d3a2cc98488af9ad1fa760fecfc71/commits",
+    "id": "060d3a2cc98488af9ad1fa760fecfc71",
+    "node_id": "MDQ6R2lzdDA2MGQzYTJjYzk4NDg4YWY5YWQxZmE3NjBmZWNmYzcx",
+    "git_pull_url": "https://gist.github.com/060d3a2cc98488af9ad1fa760fecfc71.git",
+    "git_push_url": "https://gist.github.com/060d3a2cc98488af9ad1fa760fecfc71.git",
+    "html_url": "https://gist.github.com/060d3a2cc98488af9ad1fa760fecfc71",
+    "files": {
+      "PY0101EN-1-2-Strings.ipynb": {
+        "filename": "PY0101EN-1-2-Strings.ipynb",
+        "type": "text/plain",
+        "language": "Jupyter Notebook",
+        "raw_url": "https://gist.githubusercontent.com/lisardobaena/060d3a2cc98488af9ad1fa760fecfc71/raw/63f58f3d5dd6b417ce407d3bbe35ad3198a8daa2/PY0101EN-1-2-Strings.ipynb",
+        "size": 31874
+      }
+    },
+    "public": true,
+    "created_at": "2021-02-21T21:12:49Z",
+    "updated_at": "2021-02-21T21:12:50Z",
+    "description": "Created by saeed",
+    "comments": 0,
+    "user": null,
+    "comments_url": "https://api.github.com/gists/060d3a2cc98488af9ad1fa760fecfc71/comments",
+    "owner": {
+      "login": "saeed",
+      "id": 79422425,
+      "node_id": "MDQ6VXNlcjc5NDIyNDI1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/79422425?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lisardobaena",
+      "html_url": "https://github.com/lisardobaena",
+      "followers_url": "https://api.github.com/users/lisardobaena/followers",
+      "following_url": "https://api.github.com/users/lisardobaena/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lisardobaena/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lisardobaena/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lisardobaena/subscriptions",
+      "organizations_url": "https://api.github.com/users/lisardobaena/orgs",
+      "repos_url": "https://api.github.com/users/lisardobaena/repos",
+      "events_url": "https://api.github.com/users/lisardobaena/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lisardobaena/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "truncated": false
+  },
+  {
+    "url": "https://api.github.com/gists/b38643e7cfa8595c5cf0edc01970cc7c",
+    "forks_url": "https://api.github.com/gists/b38643e7cfa8595c5cf0edc01970cc7c/forks",
+    "commits_url": "https://api.github.com/gists/b38643e7cfa8595c5cf0edc01970cc7c/commits",
+    "id": "b38643e7cfa8595c5cf0edc01970cc7c",
+    "node_id": "MDQ6R2lzdGIzODY0M2U3Y2ZhODU5NWM1Y2YwZWRjMDE5NzBjYzdj",
+    "git_pull_url": "https://gist.github.com/b38643e7cfa8595c5cf0edc01970cc7c.git",
+    "git_push_url": "https://gist.github.com/b38643e7cfa8595c5cf0edc01970cc7c.git",
+    "html_url": "https://gist.github.com/b38643e7cfa8595c5cf0edc01970cc7c",
+    "files": {
+      "untrusted-lvl8-solution.js": {
+        "filename": "untrusted-lvl8-solution.js",
+        "type": "application/javascript",
+        "language": "JavaScript",
+        "raw_url": "https://gist.githubusercontent.com/Untrusted-Game/b38643e7cfa8595c5cf0edc01970cc7c/raw/02700410c20530f9ae8ab39f42a1e48cc744c248/untrusted-lvl8-solution.js",
+        "size": 3279
+      }
+    },
+    "public": true,
+    "created_at": "2021-02-21T21:12:35Z",
+    "updated_at": "2021-02-21T21:12:35Z",
+    "description": "Solution to level 8 in Untrusted: http://alex.nisnevich.com/untrusted/",
+    "comments": 0,
+    "user": null,
+    "comments_url": "https://api.github.com/gists/b38643e7cfa8595c5cf0edc01970cc7c/comments",
+    "owner": {
+      "login": "saeed",
+      "id": 79422425,
+      "node_id": "MDQ6VXNlcjM3Nzg5MDU3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/37789057?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Untrusted-Game",
+      "html_url": "https://github.com/Untrusted-Game",
+      "followers_url": "https://api.github.com/users/Untrusted-Game/followers",
+      "following_url": "https://api.github.com/users/Untrusted-Game/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Untrusted-Game/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Untrusted-Game/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Untrusted-Game/subscriptions",
+      "organizations_url": "https://api.github.com/users/Untrusted-Game/orgs",
+      "repos_url": "https://api.github.com/users/Untrusted-Game/repos",
+      "events_url": "https://api.github.com/users/Untrusted-Game/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Untrusted-Game/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "truncated": false
+  }
+]

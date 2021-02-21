@@ -9,6 +9,11 @@ const GlobalStyles = createGlobalStyle`
   *{
     box-sizing: border-box;
   }
+  
+  a{
+    color:#2c65d6;
+    text-decoration: none;
+  }
 `;
 
 export default GlobalStyles;
