@@ -12,6 +12,7 @@ const GistList = ({ dispatch, gistPublicData, isError }) => {
   useEffect(() => {
     dispatch(getGistData());
   }, [dispatch]);
+
   return (
     <ListWrapper>
       {(isError || gistPublicData.length === 0) && (
@@ -50,8 +51,14 @@ const EmptyListWrapper = styled.div`
 `;
 
 const mapStateToProps = (state) => {
+  // select search result if exist otherwise load the initial state
+  let searchQuery = ((state || {}).gistPublicData || []).searchQuery;
+  let gistPublicData = ((state || {}).gistPublicData || []).searchResult || [];
+  if (searchQuery === "" || !searchQuery) {
+    gistPublicData = ((state || {}).gistPublicData || []).data || [];
+  }
   return {
-    gistPublicData: ((state || {}).gistPublicData || []).data || [],
+    gistPublicData,
     isError: ((state || {}).gistPublicData || []).isError,
   };
 };
@@ -59,6 +66,7 @@ const mapStateToProps = (state) => {
 GistList.propTypes = {
   dispatch: PropTypes.func,
   gistPublicData: PropTypes.arrayOf(PropTypes.oneOfType([PropTypes.any])),
+  searchResult: PropTypes.arrayOf(PropTypes.oneOfType([PropTypes.any])),
   isError: PropTypes.bool,
 };
 

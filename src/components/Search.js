@@ -4,14 +4,17 @@ import Octicon from "react-octicon";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
 
-import { searchGistByUsername, getGistData } from "../state/actions/gistAction";
+import {
+  searchGistByUsername,
+  clearSearchQuery,
+} from "../state/actions/gistAction";
 
 const Search = ({ dispatch }) => {
   const searchByUsername = (query) => {
-    if (!query || query === "") {
-      dispatch(getGistData());
-    } else {
+    if (query && query !== "") {
       dispatch(searchGistByUsername(query));
+    } else {
+      dispatch(clearSearchQuery());
     }
   };
   return (

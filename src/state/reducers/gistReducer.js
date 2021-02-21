@@ -7,26 +7,32 @@ import {
 
 const initialState = {
   data: [],
+  isError: false,
+  searchResult: [],
+  searchQuery: undefined,
 };
 
 const gistReducer = (state = initialState, action) => {
   switch (action.type) {
     case GET_GIST_PUBLIC_DATA_COMPLETED:
       return {
+        ...initialState,
         data: action.data,
       };
     case GET_GIST_PUBLIC_DATA_FAILED:
       return {
+        ...initialState,
         isError: action.isError,
-        data: [],
       };
     case SEARCH_GIST_BY_USERNAME_COMPLETED:
       return {
-        data: action.data,
+        ...state,
+        searchQuery: action.searchQuery,
+        searchResult: action.data,
       };
     case SEARCH_GIST_BY_USERNAME_FAILED:
       return {
-        data: [],
+        ...initialState,
         isError: action.isError,
       };
     default:

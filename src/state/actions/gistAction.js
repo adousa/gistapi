@@ -20,3 +20,10 @@ export function searchGistByUsername(query) {
     query,
   };
 }
+
+export function clearSearchQuery() {
+  return {
+    type: SEARCH_GIST_BY_USERNAME_COMPLETED,
+    query: undefined,
+  };
+}
