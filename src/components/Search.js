@@ -52,12 +52,8 @@ const Input = styled.input`
   }
 `;
 
-const mapStateToProps = (state) => {
-  return { gistPublicData: ((state || {}).gistPublicData || []).data };
-};
-
 Search.propTypes = {
   dispatch: PropTypes.func,
 };
 
-export default connect(mapStateToProps)(Search);
+export default connect()(Search);
