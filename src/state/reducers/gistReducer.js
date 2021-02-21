@@ -26,6 +26,7 @@ const gistReducer = (state = initialState, action) => {
       };
     case SEARCH_GIST_BY_USERNAME_FAILED:
       return {
+        data: [],
         isError: action.isError,
       };
     default:
