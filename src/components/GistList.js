@@ -66,7 +66,6 @@ const mapStateToProps = (state) => {
 GistList.propTypes = {
   dispatch: PropTypes.func,
   gistPublicData: PropTypes.arrayOf(PropTypes.oneOfType([PropTypes.any])),
-  searchResult: PropTypes.arrayOf(PropTypes.oneOfType([PropTypes.any])),
   isError: PropTypes.bool,
 };
 
