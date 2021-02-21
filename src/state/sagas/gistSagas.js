@@ -62,6 +62,7 @@ export function* searchByUserNameGenerator({ query }) {
   yield put({
     type: SEARCH_GIST_BY_USERNAME_COMPLETED,
     data: (response || []).data,
+    searchQuery: query,
   });
 }
 
