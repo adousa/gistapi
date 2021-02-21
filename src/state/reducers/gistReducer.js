@@ -2,6 +2,7 @@ import {
   GET_GIST_PUBLIC_DATA_COMPLETED,
   GET_GIST_PUBLIC_DATA_FAILED,
   SEARCH_GIST_BY_USERNAME_COMPLETED,
+  SEARCH_GIST_BY_USERNAME_FAILED,
 } from "../actions/gistAction";
 
 const initialState = {
@@ -21,6 +22,10 @@ const gistReducer = (state = initialState, action) => {
     case SEARCH_GIST_BY_USERNAME_COMPLETED:
       return {
         data: action.data,
+      };
+    case SEARCH_GIST_BY_USERNAME_FAILED:
+      return {
+        isError: action.isError,
       };
     default:
       return state;

@@ -2,8 +2,9 @@ import React, { useEffect } from "react";
 import { connect } from "react-redux";
 import styled from "styled-components";
 import Octicon from "react-octicon";
-import Gist from "./Gist";
 import PropTypes from "prop-types";
+
+import Gist from "./Gist";
 
 import { getGistData } from "../state/actions/gistAction";
 
@@ -13,13 +14,12 @@ const GistList = ({ dispatch, gistPublicData, isError }) => {
   }, [dispatch]);
   return (
     <ListWrapper>
-      {isError ||
-        (gistPublicData.length === 0 && (
-          <EmptyListWrapper>
-            <Octicon name="squirrel" mega />
-            <span>Sorry, we couldn't find any result</span>
-          </EmptyListWrapper>
-        ))}
+      {(isError || gistPublicData.length === 0) && (
+        <EmptyListWrapper>
+          <Octicon name="squirrel" mega />
+          <span>Sorry, we couldn't find any result</span>
+        </EmptyListWrapper>
+      )}
       {!isError &&
         gistPublicData.length !== 0 &&
         (gistPublicData || []).map((item) => <Gist key={item.id} {...item} />)}
@@ -51,16 +51,14 @@ const EmptyListWrapper = styled.div`
 
 const mapStateToProps = (state) => {
   return {
-    gistPublicData: ((state || {}).gistPublicData || []).data,
-    isError: ((state || {}).gistPublicData || []).error,
+    gistPublicData: ((state || {}).gistPublicData || []).data || [],
+    isError: ((state || {}).gistPublicData || []).isError,
   };
 };
 
 GistList.propTypes = {
   dispatch: PropTypes.func,
-  gistPublicData: PropTypes.arrayOf(
-    PropTypes.oneOfType([PropTypes.string, PropTypes.number])
-  ),
+  gistPublicData: PropTypes.arrayOf(PropTypes.oneOfType([PropTypes.any])),
   isError: PropTypes.bool,
 };
 
