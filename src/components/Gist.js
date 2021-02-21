@@ -17,7 +17,7 @@ const Gist = ({
 }) => {
   const { avatar_url, login } = owner;
   return (
-    <GistContainer>
+    <GistContainer role="gist-item">
       <GistHeader>
         <Avatar>
           <img alt={`${login} Avatar`} src={avatar_url} />
@@ -27,16 +27,16 @@ const Gist = ({
         </Avatar>
         <GistLinks>
           <GistLink href={commits_url} target="_blank">
-            <Octicon name="mark-github" code /> Files
+            <Octicon name="mark-github" /> Files
           </GistLink>
           <GistLink href={forks_url} target="_blank">
-            <Octicon name="repo-forked" code /> Forks
+            <Octicon name="repo-forked" /> Forks
           </GistLink>
           <GistLink href={comments_url} target="_blank">
-            <Octicon name="comment" code /> Comments
+            <Octicon name="comment" /> Comments
           </GistLink>
           <GistLink>
-            <Octicon name="star" code /> Stars
+            <Octicon name="star" /> Stars
           </GistLink>
         </GistLinks>
       </GistHeader>
@@ -47,8 +47,8 @@ const Gist = ({
       <GistDescription>{description}</GistDescription>
       <FilesList>
         {Object.keys(files).map((key) => (
-          <FileItem href={files[key].raw_url} target="_blank">
-            <Octicon name="file-text" code /> {key}
+          <FileItem key={key} href={files[key].raw_url} target="_blank">
+            <Octicon name="file-text" /> {key}
           </FileItem>
         ))}
       </FilesList>
@@ -123,7 +123,9 @@ Gist.propTypes = {
   commits_url: PropTypes.string,
   created_at: PropTypes.string,
   description: PropTypes.string,
-  files: PropTypes.objectOf(PropTypes.oneOfType([PropTypes.string])),
+  files: PropTypes.objectOf(
+    PropTypes.oneOfType([PropTypes.string, PropTypes.any])
+  ),
   forks_url: PropTypes.string,
   git_pull_url: PropTypes.string,
   git_push_url: PropTypes.string,
