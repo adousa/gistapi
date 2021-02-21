@@ -13,7 +13,7 @@ const GistList = () => {
         })
     }, [])
 
-    return (<ListWrapper>{gistPublicData.map((item) => <Gist t={console.log(item)} key={item.id} {...item} />)}</ListWrapper>)
+    return (<ListWrapper>{gistPublicData.map((item) => <Gist key={item.id} {...item} />)}</ListWrapper>)
 }
 
 
