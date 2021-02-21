@@ -16,7 +16,7 @@ const gistReducer = (state = initialState, action) => {
       };
     case GET_GIST_PUBLIC_DATA_FAILED:
       return {
-        errors: action.errors,
+        isError: action.isError,
       };
     case SEARCH_GIST_BY_USERNAME_COMPLETED:
       return {

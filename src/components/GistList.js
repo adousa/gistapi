@@ -7,19 +7,21 @@ import PropTypes from "prop-types";
 
 import { getGistData } from "../state/actions/gistAction";
 
-const GistList = ({ dispatch, gistPublicData }) => {
+const GistList = ({ dispatch, gistPublicData, isError }) => {
   useEffect(() => {
     dispatch(getGistData());
   }, [dispatch]);
   return (
     <ListWrapper>
-      {gistPublicData.length === 0 && (
-        <EmptyListWrapper>
-          <Octicon name="squirrel" mega />
-          <span>Sorry, we couldn't find any result</span>
-        </EmptyListWrapper>
-      )}
-      {gistPublicData.length !== 0 &&
+      {isError ||
+        (gistPublicData.length === 0 && (
+          <EmptyListWrapper>
+            <Octicon name="squirrel" mega />
+            <span>Sorry, we couldn't find any result</span>
+          </EmptyListWrapper>
+        ))}
+      {!isError &&
+        gistPublicData.length !== 0 &&
         (gistPublicData || []).map((item) => <Gist key={item.id} {...item} />)}
     </ListWrapper>
   );
@@ -48,7 +50,10 @@ const EmptyListWrapper = styled.div`
 `;
 
 const mapStateToProps = (state) => {
-  return { gistPublicData: ((state || {}).gistPublicData || []).data };
+  return {
+    gistPublicData: ((state || {}).gistPublicData || []).data,
+    isError: ((state || {}).gistPublicData || []).error,
+  };
 };
 
 GistList.propTypes = {
@@ -56,6 +61,7 @@ GistList.propTypes = {
   gistPublicData: PropTypes.arrayOf(
     PropTypes.oneOfType([PropTypes.string, PropTypes.number])
   ),
+  isError: PropTypes.bool,
 };
 
 export default connect(mapStateToProps)(GistList);

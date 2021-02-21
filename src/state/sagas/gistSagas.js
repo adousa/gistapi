@@ -31,7 +31,7 @@ export function* getDataGenerator() {
   } catch (errors) {
     yield put({
       type: GET_GIST_PUBLIC_DATA_FAILED,
-      payload: errors,
+      isError: true,
     });
     return;
   }
@@ -53,7 +53,7 @@ export function* searchByUserNameGenerator({ query }) {
   } catch (errors) {
     yield put({
       type: SEARCH_GIST_BY_USERNAME_FAILED,
-      payload: errors,
+      isError: true,
     });
     return;
   }
