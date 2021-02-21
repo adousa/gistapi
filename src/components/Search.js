@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Octicon from "react-octicon";
+import PropTypes from "prop-types";
 import { connect } from "react-redux";
 
 import { searchGistByUsername, getGistData } from "../state/actions/gistAction";
@@ -53,6 +54,10 @@ const Input = styled.input`
 
 const mapStateToProps = (state) => {
   return { gistPublicData: ((state || {}).gistPublicData || []).data };
+};
+
+Search.propTypes = {
+  dispatch: PropTypes.func,
 };
 
 export default connect(mapStateToProps)(Search);
